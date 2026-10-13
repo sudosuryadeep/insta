@@ -41,7 +41,7 @@ from telegram.ext import (
     filters,
 )
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8509068048:AAGKxgNY5-YTDzKgZhXupxyN4uplIxq9Mmk").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8509068048:AAFc0SO8x6x-lD5wytYrRXN4sq5iXck0vbA").strip()
 DOWNLOAD_DIR = Path(os.getenv("DOWNLOAD_DIR", tempfile.gettempdir())) / "noir-reels"
 MAX_UPLOAD_BYTES = int(os.getenv("MAX_UPLOAD_MB", "49")) * 1024 * 1024
 COOKIES_FILE = os.getenv("COOKIES_FILE", "").strip()
